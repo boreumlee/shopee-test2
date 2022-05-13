@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.shopee_btn {
+  position: "relative";
+  color: "white";
+  background-image: linear-gradient(135deg, #ff9c68, #ff5422);
+  height: 32px !important;
+  border: none !important;
+  border-radius: 2px;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,601 @@
+export const v1_path = {
+  v1_1: [
+    {
+      version: 1,
+      api_id: 410,
+      api_name: "GetShopInfo",
+      name: "shopee.shop.GetShopInfo",
+    },
+  ],
+  v1_2: [
+    {
+      version: 1,
+      api_id: 408,
+      api_name: "GetShopCategories",
+      name: "shopee.shopcategory.GetShopCategories",
+    },
+    {
+      version: 1,
+      api_id: 407,
+      api_name: "GetItems",
+      name: "shopee.shopcategory.GetItems",
+    },
+  ],
+  v1_3: [
+    {
+      version: 1,
+      api_id: 373,
+      api_name: "GetCategories",
+      name: "shopee.item.GetCategories",
+    },
+    {
+      version: 1,
+      api_id: 372,
+      api_name: "GetAttributes",
+      name: "shopee.item.GetAttributes",
+    },
+    {
+      version: 1,
+      api_id: 375,
+      api_name: "GetItemsList",
+      name: "shopee.item.GetItemsList",
+    },
+    {
+      version: 1,
+      api_id: 374,
+      api_name: "GetItemDetail",
+      name: "shopee.item.GetItemDetail",
+    },
+    {
+      version: 1,
+      api_id: 426,
+      api_name: "GetVariations [2-Tier]",
+      name: "shopee.item.GetVariations [2-Tier]",
+    },
+    {
+      version: 1,
+      api_id: 440,
+      api_name: "GetBoostedItems",
+      name: "shopee.item.GetBoostedItems",
+    },
+    {
+      version: 1,
+      api_id: 455,
+      api_name: "GetPromotionInfo",
+      name: "shopee.item.GetPromotionInfo",
+    },
+    {
+      version: 1,
+      api_id: 456,
+      api_name: "GetRecommendCats",
+      name: "shopee.item.GetRecommendCats",
+    },
+    {
+      version: 1,
+      api_id: 458,
+      api_name: "GetComment",
+      name: "shopee.item.GetComment",
+    },
+  ],
+  v1_4: [
+    {
+      version: 1,
+      api_id: 412,
+      api_name: "UploadImg",
+      name: "shopee.image.UploadImg",
+    },
+  ],
+  v1_5: [
+    {
+      version: 1,
+      api_id: 361,
+      api_name: "GetDiscountDetail",
+      name: "shopee.discount.GetDiscountDetail",
+    },
+    {
+      version: 1,
+      api_id: 362,
+      api_name: "GetDiscountsList",
+      name: "shopee.discount.GetDiscountsList",
+    },
+  ],
+  v1_6: [
+    {
+      version: 1,
+      api_id: 399,
+      api_name: "GetOrdersList",
+      name: "shopee.orders.GetOrdersList",
+    },
+    {
+      version: 1,
+      api_id: 398,
+      api_name: "GetOrdersByStatus",
+      name: "shopee.orders.GetOrdersByStatus",
+    },
+    {
+      version: 1,
+      api_id: 397,
+      api_name: "GetOrderDetails",
+      name: "shopee.orders.GetOrderDetails",
+    },
+    {
+      version: 1,
+      api_id: 396,
+      api_name: "GetEscrowDetails",
+      name: "shopee.orders.GetEscrowDetails",
+    },
+    {
+      version: 1,
+      api_id: 438,
+      api_name: "GetForderInfo",
+      name: "shopee.orders.GetForderInfo",
+    },
+    {
+      version: 1,
+      api_id: 444,
+      api_name: "GetEscrowReleasedOrders",
+      name: "shopee.orders.GetEscrowReleasedOrders",
+    },
+    {
+      version: 1,
+      api_id: 448,
+      api_name: "GetUnbindOrderList",
+      name: "shopee.orders.GetUnbindOrderList",
+    },
+    {
+      version: 1,
+      api_id: 706,
+      api_name: "AddInvoiceData",
+      name: "shopee.orders.AddInvoiceData",
+    },
+    {
+      version: 1,
+      api_id: 707,
+      api_name: "GetInvoiceOrder",
+      name: "shopee.orders.GetInvoiceOrder",
+    },
+    {
+      version: 1,
+      api_id: 747,
+      api_name: "get_pending_buyer_invoice_order_list",
+      name: "shopee.orders.get_pending_buyer_invoice_order_list",
+    },
+  ],
+  v1_7: [
+    {
+      version: 1,
+      api_id: 384,
+      api_name: "GetLogistics",
+      name: "shopee.logistics.GetLogistics",
+    },
+    {
+      version: 1,
+      api_id: 386,
+      api_name: "GetParameterForInit",
+      name: "shopee.logistics.GetParameterForInit",
+    },
+    {
+      version: 1,
+      api_id: 381,
+      api_name: "GetAddress",
+      name: "shopee.logistics.GetAddress",
+    },
+    {
+      version: 1,
+      api_id: 387,
+      api_name: "GetTimeSlot",
+      name: "shopee.logistics.GetTimeSlot",
+    },
+    {
+      version: 1,
+      api_id: 383,
+      api_name: "GetBranch",
+      name: "shopee.logistics.GetBranch",
+    },
+    {
+      version: 1,
+      api_id: 417,
+      api_name: "GetLogisticInfo",
+      name: "shopee.logistics.GetLogisticInfo",
+    },
+    {
+      version: 1,
+      api_id: 382,
+      api_name: "GetAirwayBill",
+      name: "shopee.logistics.GetAirwayBill",
+    },
+    {
+      version: 1,
+      api_id: 385,
+      api_name: "GetOrderLogistics",
+      name: "shopee.logistics.GetOrderLogistics",
+    },
+    {
+      version: 1,
+      api_id: 392,
+      api_name: "GetLogisticsMessage",
+      name: "shopee.logistics.GetLogisticsMessage",
+    },
+    {
+      version: 1,
+      api_id: 447,
+      api_name: "GetForderWaybill",
+      name: "shopee.logistics.GetForderWaybill",
+    },
+  ],
+  v1_8: [
+    {
+      version: 1,
+      api_id: 403,
+      api_name: "GetReturnList",
+      name: "shopee.returns.GetReturnList",
+    },
+    {
+      version: 1,
+      api_id: 443,
+      api_name: "GetReturnDetail",
+      name: "shopee.returns.GetReturnDetail",
+    },
+  ],
+};
+
+export const v2_path = {
+  v2_1: [
+    {
+      version: 2,
+      api_id: 653,
+      api_name: "get_category",
+      name: "v2.product.get_category",
+    },
+    {
+      version: 2,
+      api_id: 655,
+      api_name: "get_attributes",
+      name: "v2.product.get_attributes",
+    },
+    {
+      version: 2,
+      api_id: 684,
+      api_name: "get_brand_list",
+      name: "v2.product.get_brand_list",
+    },
+    {
+      version: 2,
+      api_id: 628,
+      api_name: "get_dts_limit",
+      name: "v2.product.get_dts_limit",
+    },
+    {
+      version: 2,
+      api_id: 629,
+      api_name: "get_item_limit",
+      name: "v2.product.get_item_limit",
+    },
+    {
+      version: 2,
+      api_id: 614,
+      api_name: "get_item_list",
+      name: "v2.product.get_item_list",
+    },
+    {
+      version: 2,
+      api_id: 612,
+      api_name: "get_item_base_info",
+      name: "v2.product.get_item_base_info",
+    },
+    {
+      version: 2,
+      api_id: 613,
+      api_name: "get_item_extra_info",
+      name: "v2.product.get_item_extra_info",
+    },
+    {
+      version: 2,
+      api_id: 618,
+      api_name: "get_model_list",
+      name: "v2.product.get_model_list",
+    },
+    {
+      version: 2,
+      api_id: 626,
+      api_name: "get_boosted_list",
+      name: "v2.product.get_boosted_list",
+    },
+    {
+      version: 2,
+      api_id: 661,
+      api_name: "get_item_promotion",
+      name: "v2.product.get_item_promotion",
+    },
+    {
+      version: 2,
+      api_id: 701,
+      api_name: "search_item",
+      name: "v2.product.search_item",
+    },
+    {
+      version: 2,
+      api_id: 562,
+      api_name: "get_comment",
+      name: "v2.product.get_comment",
+    },
+    {
+      version: 2,
+      api_id: 702,
+      api_name: "category_recommend",
+      name: "v2.product.category_recommend",
+    },
+    {
+      version: 2,
+      api_id: 750,
+      api_name: "get_recommend_attribute",
+      name: "v2.product.get_recommend_attribute",
+    },
+  ],
+  v2_2: [
+    {
+      version: 2,
+      api_id: 534,
+      api_name: "get_video_upload_result",
+      name: "v2.media_space.get_video_upload_result",
+    },
+    {
+      version: 2,
+      api_id: 660,
+      api_name: "upload_image",
+      name: "v2.media_space.upload_image",
+    },
+  ],
+  v2_3: [
+    {
+      version: 2,
+      api_id: 536,
+      api_name: "get_shop_info",
+      name: "v2.shop.get_shop_info",
+    },
+    {
+      version: 2,
+      api_id: 584,
+      api_name: "get_profile",
+      name: "v2.shop.get_profile",
+    },
+  ],
+  v2_4: [
+    {
+      version: 2,
+      api_id: 542,
+      api_name: "get_order_list",
+      name: "v2.order.get_order_list",
+    },
+    {
+      version: 2,
+      api_id: 543,
+      api_name: "get_shipment_list",
+      name: "v2.order.get_shipment_list",
+    },
+    {
+      version: 2,
+      api_id: 557,
+      api_name: "get_order_detail",
+      name: "v2.order.get_order_detail",
+    },
+    {
+      version: 2,
+      api_id: 745,
+      api_name: "get_pending_buyer_invoice_order_list",
+      name: "v2.order.get_pending_buyer_invoice_order_list",
+    },
+  ],
+  v2_5: [
+    {
+      version: 2,
+      api_id: 550,
+      api_name: "get_shipping_parameter",
+      name: "v2.logistics.get_shipping_parameter",
+    },
+    {
+      version: 2,
+      api_id: 552,
+      api_name: "get_tracking_number",
+      name: "v2.logistics.get_tracking_number",
+    },
+    {
+      version: 2,
+      api_id: 549,
+      api_name: "get_shipping_document_parameter",
+      name: "v2.logistics.get_shipping_document_parameter",
+    },
+    {
+      version: 2,
+      api_id: 561,
+      api_name: "get_shipping_document_result",
+      name: "v2.logistics.get_shipping_document_result",
+    },
+    {
+      version: 2,
+      api_id: 560,
+      api_name: "get_shipping_document_info",
+      name: "v2.logistics.get_shipping_document_info",
+    },
+    {
+      version: 2,
+      api_id: 551,
+      api_name: "get_tracking_info",
+      name: "v2.logistics.get_tracking_info",
+    },
+    {
+      version: 2,
+      api_id: 558,
+      api_name: "get_address_list",
+      name: "v2.logistics.get_address_list",
+    },
+    {
+      version: 2,
+      api_id: 559,
+      api_name: "get_channel_list",
+      name: "v2.logistics.get_channel_list",
+    },
+  ],
+  v2_6: [
+    {
+      version: 2,
+      api_id: 605,
+      api_name: "get_unbind_order_list",
+      name: "v2.first_mile.get_unbind_order_list",
+    },
+    {
+      version: 2,
+      api_id: 601,
+      api_name: "get_detail",
+      name: "v2.first_mile.get_detail",
+    },
+    {
+      version: 2,
+      api_id: 602,
+      api_name: "get_tracking_number_list",
+      name: "v2.first_mile.get_tracking_number_list",
+    },
+    {
+      version: 2,
+      api_id: 603,
+      api_name: "get_waybill",
+      name: "v2.first_mile.get_waybill",
+    },
+    {
+      version: 2,
+      api_id: 606,
+      api_name: "get_channel_list",
+      name: "v2.first_mile.get_channel_list",
+    },
+  ],
+  v2_7: [
+    {
+      version: 2,
+      api_id: 574,
+      api_name: "get_discount",
+      name: "v2.discount.get_discount",
+    },
+    {
+      version: 2,
+      api_id: 575,
+      api_name: "get_discount_list",
+      name: "v2.discount.get_discount_list",
+    },
+  ],
+  v2_8: [
+    {
+      version: 2,
+      api_id: 694,
+      api_name: "get_bundle_deal_list",
+      name: "v2.bundle_deal.get_bundle_deal_list",
+    },
+    {
+      version: 2,
+      api_id: 695,
+      api_name: "get_bundle_deal",
+      name: "v2.bundle_deal.get_bundle_deal",
+    },
+    {
+      version: 2,
+      api_id: 696,
+      api_name: "get_bundle_deal_item",
+      name: "v2.bundle_deal.get_bundle_deal_item",
+    },
+  ],
+  v2_9: [
+    {
+      version: 2,
+      api_id: 715,
+      api_name: "get_add_on_deal_list",
+      name: "v2.add_on_deal.get_add_on_deal_list",
+    },
+    {
+      version: 2,
+      api_id: 719,
+      api_name: "get_add_on_deal",
+      name: "v2.add_on_deal.get_add_on_deal",
+    },
+    {
+      version: 2,
+      api_id: 717,
+      api_name: "get_add_on_deal_main_item",
+      name: "v2.add_on_deal.get_add_on_deal_main_item",
+    },
+    {
+      version: 2,
+      api_id: 718,
+      api_name: "get_add_on_deal_sub_item",
+      name: "v2.add_on_deal.get_add_on_deal_sub_item",
+    },
+  ],
+  v2_10: [
+    {
+      version: 2,
+      api_id: 727,
+      api_name: "get_voucher_detail",
+      name: "v2.voucher.get_voucher_detail",
+    },
+    {
+      version: 2,
+      api_id: 728,
+      api_name: "get_voucher_list",
+      name: "v2.voucher.get_voucher_list",
+    },
+  ],
+  v2_11: [
+    {
+      version: 2,
+      api_id: 733,
+      api_name: "get_follow_prize_detail",
+      name: "v2.follow_prize.get_follow_prize_detail",
+    },
+    {
+      version: 2,
+      api_id: 734,
+      api_name: "get_follow_prize_list",
+      name: "v2.follow_prize.get_follow_prize_list",
+    },
+  ],
+  v2_12: [
+    {
+      version: 2,
+      api_id: 587,
+      api_name: "get_shop_category_list",
+      name: "v2.shop_category.get_shop_category_list",
+    },
+    {
+      version: 2,
+      api_id: 591,
+      api_name: "get_item_list",
+      name: "v2.shop_category.get_item_list",
+    },
+  ],
+  v2_13: [
+    {
+      version: 2,
+      api_id: 607,
+      api_name: "get_return_detail",
+      name: "v2.returns.get_return_detail",
+    },
+    {
+      version: 2,
+      api_id: 608,
+      api_name: "get_return_list",
+      name: "v2.returns.get_return_list",
+    },
+  ],
+  v2_14: [
+    {
+      version: 2,
+      api_id: 658,
+      api_name: "shop_performance",
+      name: "v2.account_health.shop_performance",
+    },
+    {
+      version: 2,
+      api_id: 659,
+      api_name: "shop_penalty",
+      name: "v2.account_health.shop_penalty",
+    },
+  ],
+};
