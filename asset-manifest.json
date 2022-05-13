@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shopee-test2/static/css/main.7ccec3e1.chunk.css",
+    "main.js": "/shopee-test2/static/js/main.7c032dfb.chunk.js",
+    "main.js.map": "/shopee-test2/static/js/main.7c032dfb.chunk.js.map",
+    "runtime-main.js": "/shopee-test2/static/js/runtime-main.a33346ee.js",
+    "runtime-main.js.map": "/shopee-test2/static/js/runtime-main.a33346ee.js.map",
+    "static/css/2.150d169a.chunk.css": "/shopee-test2/static/css/2.150d169a.chunk.css",
+    "static/js/2.9a4bc893.chunk.js": "/shopee-test2/static/js/2.9a4bc893.chunk.js",
+    "static/js/2.9a4bc893.chunk.js.map": "/shopee-test2/static/js/2.9a4bc893.chunk.js.map",
+    "index.html": "/shopee-test2/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/shopee-test2/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.7ccec3e1.chunk.css.map": "/shopee-test2/static/css/main.7ccec3e1.chunk.css.map",
+    "static/js/2.9a4bc893.chunk.js.LICENSE.txt": "/shopee-test2/static/js/2.9a4bc893.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a33346ee.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.9a4bc893.chunk.js",
+    "static/css/main.7ccec3e1.chunk.css",
+    "static/js/main.7c032dfb.chunk.js"
+  ]
+}
